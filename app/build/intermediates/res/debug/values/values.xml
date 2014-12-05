@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/gmhafiz/windows7/Users/gmhafiz/Documents/Dropbox/Programming/com.gmhafiz.VogellaTestApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <color name="myColor">#F5F5F5</color>
+    <string name="app_name">Vogella Test App</string>
+    <string name="calc">Calculate New Rating</string>
+    <string name="draw">Draw</string>
+    <string name="enterK">Enter coefficient</string>
+    <string name="enterResult">Enter Result</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lose">Lose</string>
+    <string name="win">Win</string>
+    <string name="yourNewRating">Your new Rating is: </string>
+    <!-- From: file:/home/gmhafiz/windows7/Users/gmhafiz/Documents/Dropbox/Programming/com.gmhafiz.VogellaTestApp/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

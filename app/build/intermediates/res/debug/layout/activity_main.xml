@@ -1,0 +1,154 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}"
+    android:background="@color/myColor"
+    android:id="@+id/mainUI">
+
+    <EditText
+        android:id="@+id/editText0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:hint="Enter your rating"
+        android:text="2200"
+        android:ems="10"
+        android:inputType="numberSigned" />
+        <requestFocus />
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Opponent's rating"
+        android:text="2000"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:layout_below="@+id/editText0"
+        android:layout_alignParentStart="true">
+
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enterResult"
+        android:id="@+id/textView"
+        android:layout_below="@+id/editText1"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enterK"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/editText1"
+        android:layout_centerHorizontal="true"/>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/textView"
+        android:layout_toStartOf="@+id/textView2"
+        android:id="@+id/resultRadio">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/win"
+            android:checked="true"
+            android:id="@+id/winButton"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/draw"
+            android:id="@+id/drawButton"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lose"
+            android:id="@+id/loseButton"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/calc"
+            android:onClick="onClick"
+            android:id="@+id/calc"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yourNewRating"
+            android:id="@+id/textView3"
+            android:paddingTop="16dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/putResultHere"
+            android:inputType="number" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/kText"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingDiffText"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/expectedScoreText"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ratingChangeText"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/coeffRadio"
+        android:layout_below="@+id/textView2"
+        android:layout_toEndOf="@+id/resultRadio">
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10"
+        android:id="@+id/k10"
+        android:layout_alignTop="@+id/radioGroup"
+        android:layout_toEndOf="@+id/radioGroup"
+        android:checked="true"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:id="@+id/k20"
+        android:layout_below="@+id/k10"
+        android:layout_alignEnd="@+id/k10"/>
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="40"
+        android:id="@+id/k40"
+        android:layout_below="@+id/k20"
+        android:layout_alignEnd="@+id/k20"/>
+    </RadioGroup>
+
+</RelativeLayout>
+
+
+
+<!-- From: file:/home/gmhafiz/windows7/Users/gmhafiz/Documents/Dropbox/Programming/com.gmhafiz.VogellaTestApp/app/src/main/res/layout/activity_main.xml -->

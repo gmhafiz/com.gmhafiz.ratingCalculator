@@ -1,0 +1,4 @@
+/home/gmhafiz/windows7/Users/gmhafiz/Documents/Dropbox/Programming/com.gmhafiz.VogellaTestApp/app/build/intermediates/classes/debug
+/home/gmhafiz/windows7/Users/gmhafiz/Documents/Dropbox/Programming/com.gmhafiz.VogellaTestApp/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-1e9bba1e7979125665c442d859d2bfa58fa53060.jar
+/home/gmhafiz/windows7/Users/gmhafiz/Documents/Dropbox/Programming/com.gmhafiz.VogellaTestApp/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-23d2bcc0714a5f4e917299b9c3017c1aebf5ca56.jar
+/home/gmhafiz/windows7/Users/gmhafiz/Documents/Dropbox/Programming/com.gmhafiz.VogellaTestApp/app/build/intermediates/pre-dexed/debug/classes-69ad3cab7ad3a1ccb5438d95e9fb19dca590fb8d.jar

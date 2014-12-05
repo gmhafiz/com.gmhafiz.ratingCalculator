@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vogella Test App</string>
+    <string name="hello_world">Hello world!</string>
+    <color name="myColor">#F5F5F5</color>
+    <string name="win">Win</string>
+    <string name="lose">Lose</string>
+    <string name="draw">Draw</string>
+    <string name="calc">Calculate New Rating</string>
+    <string name="enterResult">Enter Result</string>
+    <string name="enterK">Enter coefficient</string>
+    <string name="yourNewRating">Your new Rating is: </string>
+
+</resources>
